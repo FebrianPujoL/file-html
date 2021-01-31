@@ -1,0 +1,275 @@
+@media(min-width:1024px){
+    .background{
+        background:#F2ECE2;
+    }
+    .text1{
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        padding-left: 25px;
+        margin-top: 145px;
+        line-height: 16px;
+    }
+       
+    .text2{
+        font-size: 32px ;
+        line-height: 40px ;
+        margin-bottom: 40px;
+        padding-left: 25px;
+        font-weight: 700;
+        letter-spacing: 0px;
+        margin-right: -5px;
+    }
+    .text2-color{
+        color: rgb(228, 30, 87);
+    }
+    .button-color{
+        background:#f7f1df;
+        border: 0px;
+        padding-left: 25px;
+        cursor: pointer;
+        font-weight: 600;
+        letter-spacing: -1px;
+        text-decoration: underline;
+        padding-bottom: 165px;
+    }
+    .card1{
+        margin-top: 35px;
+        margin-left: 0px;
+        margin-right: 35px;
+    }
+    .card{
+        border: none;
+    }
+    .card-title1{
+        color: #222222;
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 4px;
+        margin-bottom: -10px;
+        margin-left: 13px;
+        font-weight:normal;
+    }
+    .border-list{
+        border: 0px;
+        margin-top: 35px;
+    }
+    .list-address{
+        border-radius: 5px;
+        border: 1px solid grey;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        margin-left: 10px;
+        padding-left: 15;
+    }
+    .dropdown1{
+        border: 1px solid grey;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-right: 363px;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+    .dropdown2{
+        border: 1px solid grey;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 372px;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+    .sp-guest{
+        font-weight: 600;
+        margin: 10px;
+    }
+    .start{
+        margin-top: 0px;
+        background: black;
+        color: white;
+        margin: 10px;
+        margin-top: -45px;
+        padding-bottom: 17px;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 18px;
+        padding-left: 139px;
+        padding-right: 130px;
+        padding-top: 15px;
+        font-weight: bold;
+        margin-left: 40px;
+    }
+    .hosting-works{
+        font-size: 42px;
+        line-height: 42px;
+        font-weight: bold;
+        padding-left: 40px;
+        margin-top: 72px;
+        margin-bottom: 50px;
+    }
+    .row-img{
+        margin-left: 10px;
+    }
+    .card-title{
+        font-weight: 600 ;
+        color: #333333 ;
+        font-size: 24px ;
+        line-height: 30px ;
+        margin-top: 24px ;
+        margin-bottom: 16px ;
+    }
+    .card-text{
+        margin-right: 30px;
+    }
+    .color-LM{
+        color: black;
+        text-decoration: underline;
+    }
+    .padding-body{
+        padding-left:0px ;
+    }
+    .text-join{
+        font-size: 48px;
+        line-height: 48px;
+        font-weight: bold;
+        padding-left: 3px;
+        margin-top: 72px;
+        margin-bottom: 35px;
+        margin-top: 276px;
+        margin-right: -15px;
+    }
+    .text-body{
+        max-width: 360px ;
+        margin-top: 32px ;
+        margin-bottom: 32px ;
+        font-size: 18px;
+        padding-left: 3px;
+        margin-right: 0px;
+    }
+    .button-getstart{
+        background: var(--dls19-brand-gradient-radial, radial-gradient(circle at center, #FF385C 0%, #E61E4D 27.5%, #E31C5F 40%, #D70466 57.5%, #BD1E59 75%, #BD1E59 100% ));
+        border-radius: 10px;
+        border: none;
+        margin-left: 0px;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 16px 32px 16px 32px;
+        margin-bottom: 276px;
+    }
+    .card-title2{
+        padding-left: 30px;
+        margin-bottom: 16px ;
+        font-weight: 600 ;
+        font-size: 24px ;
+        line-height: 30px ;
+        margin-right: 0px;
+    }
+    .card-text2{
+        padding-left: 30px;
+        margin-right: 32px;
+    }
+    .button-2{
+        padding-left: 29px;
+        font-weight: 600;
+        color: #717171;
+        text-decoration: underline;
+    }
+    .img-potition{
+        padding-left: 30px;
+        margin: 20px 0px 30px 0px;
+    }
+    .card-row{
+        padding-right: 50px;
+        margin-bottom: 35px;
+    }
+    .margin-title{
+        margin-top:150px ;
+    }
+    .hosting-works1{
+        font-size: 42px;
+        line-height: 44px;
+        font-weight: bold;
+        padding-left: 35px;
+        margin-top: -90px;
+        margin-bottom: 50px;
+    }
+    .margin-title2{
+        margin-top:70px ;
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    .margin-body2{
+        margin-right: 60px;
+        margin-left: 0px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .margin-title3{
+        font-weight: 700;
+        margin-top:30px ;
+        font-size: 18px;
+        margin-left: 0px
+    }
+    .margin-body3{
+        margin-bottom: 80px;
+        margin-right: 60px;
+        margin-left: 30px;
+    }
+    .text-titlehost{
+        font-size: 42px;
+        line-height: 48px;
+        font-weight: bold;
+        padding-left: 25px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+
+    }
+    .bckgrnd-footer{
+        background-color:  #F7F7F7;
+    }
+    .text-body2{
+        font-size: 24px ;
+        line-height: 32px ;
+        margin-bottom: 24px ;
+        margin-right: 100px;
+        margin-top: 50px;
+        padding-left: 0px
+    }
+    .button-getstart2{
+        background: var(--dls19-brand-gradient-radial, radial-gradient(circle at center, #FF385C 0%, #E61E4D 27.5%, #E31C5F 40%, #D70466 57.5%, #BD1E59 75%, #BD1E59 100% ));
+        border-radius: 10px;
+        border: none;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 16px 32px 16px 32px;
+        margin-bottom: 100px;
+        margin-left: 0px;
+    }
+    .button-3{
+        padding-left: 25px;
+        font-weight: normal;
+        color: black;
+        font-size: 14px;
+    }
+    .text-about{
+        padding-left: 40px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .text-about1{
+        padding-left: 40px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .margin-img{
+        padding-right: 20px;
+        margin-left: -20px;
+    }
+    .border-bot{
+        border-bottom: 1px solid gainsboro;
+    }
+    .last-position{
+        text-align: center;
+    }
+}

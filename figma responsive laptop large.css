@@ -1,0 +1,52 @@
+@media(min-width:1440px){
+    .matt-mcdonald{
+        font-size: 126px;
+    }
+    .rectangle-potition{
+        margin-left: 165px;
+    }
+    .combined-shape{
+        margin-left: 403px;
+    }
+    .background-end{
+        width: 100%;
+    }
+    .frame11{
+        margin-top: -15px;
+    }
+    .frame11-taxt{
+        margin-bottom: 0px;
+    }
+    .img-rectangle2{
+        margin-bottom: 66px;
+        margin-top: 80px;
+    }
+    .frame-bot{
+        padding-bottom: 66px;
+        font-size: 20px;
+    }
+    .frame-bot1{
+        font-size: 20px;
+    }
+    .skillset3{
+        color: #9E8C6C;
+        padding-top: 350px;
+    }
+    .padding-text{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .left-visual{
+        list-style-type: none;
+        margin-left: -40px;
+        padding-bottom: 0px;
+    }
+    .padding-date{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom:0px
+    }
+    .skillset1{
+        padding-top:0px
+    }
+}
