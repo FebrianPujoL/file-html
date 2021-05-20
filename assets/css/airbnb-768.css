@@ -1,8 +1,8 @@
 @media(min-width:768px){
-    .background{
+    .header--background{
         background:#F2ECE2;
     } 
-    .text1{
+    .container-fluid--text-1{
         font-weight: 700;
         font-size: 14px;
         margin-bottom: 17px;
@@ -10,8 +10,8 @@
         padding-left: 23px;
         margin-top: 120px;
         line-height: 16px
-    }
-    .text2{
+    } 
+    .container-fluid--text-2{
         font-size: 32px ;
         line-height: 36px ;
         margin-bottom: 40px;
@@ -20,11 +20,11 @@
         letter-spacing: 0px;
         margin-right: -7px;
     }
-    .text2-color{
+    .container-fluid--text-2-color{
         color: rgb(228, 30, 87);
     }
-    .button-color{
-        background:#f7f1df;
+    .container-fluid__button--color{
+        background:#F2ECE2;
         border: 0px;
         padding-left: 23px;
         cursor: pointer;
@@ -33,7 +33,7 @@
         text-decoration: underline;
         padding-bottom: 165px;
     }
-    .card1{
+    .card--registry{
         margin-top: 35px;
         margin-left: 11px;
         margin-right: 25px;
@@ -41,18 +41,18 @@
     .card{
         border: none;
     }
-    .card-title1{
+    .card__title--text-1{
         color: #222222 ;
         font-size: 18px ;
         line-height: 24px ;
         margin-top: 32px ;
         margin-bottom: 24px;
     }
-    .border-list{
+    .list__border{
         border: 0px;
         margin-top: 35px;
     }
-    .list-address{
+    .list--address{
         border-radius: 5px;
         border: 1px solid grey;
         padding-top: 18px;
@@ -60,7 +60,7 @@
         margin-left: 10px;
         padding-left: 15px;
     }
-    .dropdown1{
+    .list__dropdown--entire-place{
         border: 1px solid grey;
         padding-top: 13px;
         padding-bottom: 13px;
@@ -68,7 +68,7 @@
         border-radius: 5px;
         margin-left: 10px;
     }
-    .dropdown2{
+    .list__dropdown--guest{
         border: 1px solid grey;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -76,12 +76,12 @@
         border-radius: 5px;
         margin-left: 10px;
     }
-    .sp-guest{
+    .list--sp-guest{
         font-weight: 600;
         margin: 10px;
         
     }
-    .start{
+    .card__button--start{
         margin-top: 0px;
         background: black;
         color: white;
@@ -97,7 +97,7 @@
         font-weight: bold;
         margin-left: 60px;
     }
-    .hosting-works{
+    .section__works--concept{
         font-size: 42px;
         line-height: 42px;
         font-weight: bold;
@@ -105,10 +105,10 @@
         margin-top: 72px;
         margin-bottom: 50px;
     }
-    .row-img{
+    .section__img--row{
         margin-left: 0px;
     }
-    .card-title{
+    .card__title--text{
         font-weight: 600 ;
         color: #333333 ;
         font-size: 24px ;
@@ -116,14 +116,15 @@
         margin-top: 24px ;
         margin-bottom: 16px ;
     }
-    .card-text{
+    .card__text--body{
         margin-right: 70px;
+        font-size: 18px;
     }
-    .color-LM{
+    .card__link--color{
         color: black;
         text-decoration: underline;
     }
-    .padding-body{
+    .card__body--padding{
         padding-left:0px ;
     }
     .text-join{

@@ -7,15 +7,15 @@
   <title>responsive</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="airbnb-320.css">
-  <link rel="stylesheet" href="airbnb-768.css">
-  <link rel="stylesheet" href="airbnb-1024.css">
-  <link rel="stylesheet" href="airbnb-1440.css">
+  <link rel="stylesheet" href="../assets/css/airbnb-320.css">
+  <link rel="stylesheet" href="../assets/css/airbnb-768.css">
+  <link rel="stylesheet" href="../assets/css/airbnb-1024.css">
+  <link rel="stylesheet" href="../assets/css/airbnb-1440.css">
 </head>
 
 <body>
-  <div class="background">
-    <div class="img-1st">
+  <header class="header--background">
+    <div>
       <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
         style="display:block;height:36px;width:36px;fill:#210034" aria-label="Airbnb" role="img" focusable="false">
         <path
@@ -27,24 +27,25 @@
       <div class="row">
         <div class="col col-xl-6 col-lg-5 col-md-4 col-12">
           <div>
-            <p class="text1"> SEE WHAT’S POSSIBLE</p>
-            <p class="text2"> Earn up to <span class="text2-color">$163</span> a month hosting in Surabaya
+            <p class="container-fluid--text-1"> SEE WHAT’S POSSIBLE</p>
+            <p class="container-fluid--text-2"> Earn up to <span class="container-fluid--text-2-color">$163</span> a
+              month hosting in Surabaya
             </p>
           </div>
-          <button type="button" class="btn btn-light button-color">How we estimate your earnings
+          <button type="button" class="btn btn-light container-fluid__button--color">How we estimate your earnings
             potential</button>
         </div>
         <div class="col col-xl-6 col-lg-7 col-md-8 col-12">
-          <div class="card1">
+          <div class="card--registry">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title1">Tell us more about your place and we'll update your estimate
+                <h5 class="card__title card__title--text-1">Tell us more about your place and we'll update your estimate
                 </h5>
                 <p class="card-text">
-                <div class="card border-list">
+                <div class="card list__border">
                   <ul class="list-group list-group-flush ">
-                    <input class="list-address" type="text" placeholder="Address">
-                    <div class="dropdown1">
+                    <input class="list--address" type="text" placeholder="Address">
+                    <div class="list__dropdown list__dropdown--entire-place">
                       <a class="btn dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Entire place
@@ -67,7 +68,7 @@
                           others.</a>
                       </div>
                     </div>
-                    <div class="dropdown2">
+                    <div class="list__dropdown list__dropdown--guest">
                       <a class="btn dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         4guest
@@ -79,13 +80,77 @@
                         <a class="dropdown-item" href="#">4guest</a>
                       </div>
                     </div>
-                    <span class="sp-guest">+ Let us know any special spaces guests can access</span>
+                    <span class="list--sp-guest">+ Let us know any special spaces guests can access</span>
                   </ul>
                 </div>
                 </p>
               </div>
               <div class="card-body">
-                <button type="button" class="start">Start your listing</button>
+                <button type="button" class="card__button card__button--start">Start your listing</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div section id="works" class="section__works section__works--concept">
+    How hosting works
+    <div>
+      <div class="container-fluid ">
+        <div class="row section__img section__img--row">
+          <div class="col col-xl-3 col-lg-4 col-md-6 col-12">
+            <div class="card">
+              <div class=" img-card ">
+                <img src="../assets/images/img-3.png.webp" alt="...">
+              </div>
+              <div class="card__body card__body--padding">
+                <h5 class="card__title card__title--text">Choose your requirements</h5>
+                <p class="card__text card__text--body">Decide how many people can stay and for how long. Set house rules that
+                  guests must follow when staying at your place.</p>
+                <a href="#" class="card__link card__link--color">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-xl-3 col-lg-4 col-md-6 col-12">
+            <div class="card">
+              <div class=" img-card">
+                <img src="../assets/images/img-4.png.webp" alt="...">
+              </div>
+              <div class="card-body padding-body">
+                <h5 class="card__title card__title--text">Decide when to host</h5>
+                <p class="card__text card__text--body">Block off dates on your calendar whenever you like—there’s no minimum
+                  time
+                  that your place needs to be available.</p>
+                <a href="#" class="card__link card__link--color">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-xl-3 col-lg-4 col-md-6 col-12">
+            <div class="card">
+              <div class=" img-card ">
+                <img src="../assets/images/img-1.png.webp" alt="...">
+              </div>
+              <div class="card-body padding-body">
+                <h5 class="card__title card__title--text">Set your own prices</h5>
+                <p class="card__text card__text--body">What you charge is up to you. Our tools and insights can help you set
+                  nightly prices that are competitive for your area.</p>
+                <a href="#" class="card__link card__link--color">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-xl-3 col-lg-4 col-md-6 col-12">
+            <div class="card">
+              <div class=" img-card ">
+                <img src="../assets/images/img-2.png.webp" alt="...">
+              </div>
+              <div class="card-body padding-body">
+                <h5 class="card__title card__title--text">Help guests feel welcome</h5>
+                <p class="card__text card__text--body">Follow our amenity and performance guidelines to create comfortable
+                  stays
+                  and earn great reviews.
+                </p>
+                <a href="#" class="card__link card__link--color">Learn more</a>
               </div>
             </div>
           </div>
@@ -93,70 +158,7 @@
       </div>
     </div>
   </div>
-  <div class="hosting-works">
-    How hosting works
-  </div>
-  <div>
-    <div class="container-fluid ">
-      <div class="row row-img">
-        <div class="col col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-            <div class=" img-card ">
-              <img src="assets/images/img3.png.webp" alt="...">
-            </div>
-            <div class="card-body padding-body">
-              <h5 class="card-title">Choose your requirements</h5>
-              <p class="card-text">Decide how many people can stay and for how long. Set house rules that
-                guests must follow when staying at your place.</p>
-              <a href="#" class="color-LM">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-            <div class=" img-card">
-              <img src="assets/images/img4.png.webp" alt="...">
-            </div>
-            <div class="card-body padding-body">
-              <h5 class="card-title">Decide when to host</h5>
-              <p class="card-text">Block off dates on your calendar whenever you like—there’s no minimum
-                time
-                that your place needs to be available.</p>
-              <a href="#" class="color-LM">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-            <div class=" img-card ">
-              <img src="assets/images/img-1.png.webp" alt="...">
-            </div>
-            <div class="card-body padding-body">
-              <h5 class="card-title">Set your own prices</h5>
-              <p class="card-text">What you charge is up to you. Our tools and insights can help you set
-                nightly prices that are competitive for your area.</p>
-              <a href="#" class="color-LM">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="col col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-            <div class=" img-card ">
-              <img src="assets/images/img-2.png.webp" alt="...">
-            </div>
-            <div class="card-body padding-body">
-              <h5 class="card-title ">Help guests feel welcome</h5>
-              <p class="card-text">Follow our amenity and performance guidelines to create comfortable
-                stays
-                and earn great reviews.
-              </p>
-              <a href="#" class="color-LM">Learn more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
   <hr>
   <div>
     <div class="container-fluid">
@@ -502,9 +504,9 @@
             <div>
               <p>English (US)
                 Choose a currency
-                <img src="assets/images/Vector-fb.png" alt="">
-                <img src="assets/images/Vector-twit.png" alt="">
-                <img src="assets/images/vector-ig.png" alt="">
+                <img src="../assets/images/Vector-fb.png" alt="">
+                <img src="../assets/images/Vector-twit.png" alt="">
+                <img src="../assets/images/vector-ig.png" alt="">
               </p>
             </div>
           </div>
