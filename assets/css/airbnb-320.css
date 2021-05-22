@@ -126,7 +126,7 @@
     .card__body--padding{
         padding-left:0px ;
     }
-    .text-join{
+    .card__title--text-join{
         font-size: 31px;
         line-height: 36px;
         font-weight: 700;
@@ -135,7 +135,7 @@
         margin-bottom: 50px;
         margin-top: 40px;
     }
-    .text-body{
+    .card__text--body{
         max-width: 360px ;
         margin-top: 32px ;
         margin-bottom: 32px ;
@@ -143,7 +143,7 @@
         padding-left: 0px;
         margin-right: -3px;
     }
-    .button-getstart{
+    .card__button--getstart{
         background: var(--dls19-brand-gradient-radial, radial-gradient(circle at center, #FF385C 0%, #E61E4D 27.5%, #E31C5F 40%, #D70466 57.5%, #BD1E59 75%, #BD1E59 100% ));
         border-radius: 10px;
         border: none;
@@ -153,17 +153,17 @@
         padding: 4px 20px 4px 20px;
         margin-bottom: 40px;
     }
-    .card-title2{
+    .card__title--text-2{
         padding-left: 10px;
         margin-bottom: 16px ;
         font-weight: 600 ;
         font-size: 24px ;
         line-height: 30px ;
     }
-    .card-text2{
+    .card__body--text-2{
         padding-left: 10px;
     }
-    .button-2{
+    .card__button--text-2{
         padding-left: 10px;
         font-weight: 600;
         color: black;
