@@ -1,95 +1,95 @@
-.hero-section {
+.header--potition {
    margin-right: 20px;
    margin-left: 20px;
    border-bottom: 1px solid black;
 }
-.header-logo {
+.header__logo--potition{
     margin-right:100px ;
     margin-left: 55px;
 }
-.build-excatly{
+.creat--color{
     margin-left: 50px;
     padding: 300px 200px;
 }
-.build-excatlyh1{
+.creat__body--color{
     font-weight: bold;
     color: #7854F7;
 }
-.background{
+.header__link--background{
     background:white;
     color: #7854F7;
 }
-.img-1{
+.creat__img--potition-right{
     margin-left: -50px;
     margin-top: 40px;
 }
-.img-2{
+.creat__img--potition-left{
     margin-left: -40px;
 }
-.button-CTA{
+.creat__button--start{
     border-radius:60px;
     width: 180px;
     height: 50px;
     background:#7854F7;
     border: none;
 }
-.build-h1 {
+.section__pages--title {
     font-size: 35px;
     color: #7854F7;
     margin-top:75px;
 }
-.button-CTA2{
+.creat__button--cta{
     border-radius:60px;
     width: 270px;
     height: 50px;
     background: #7854F7;
     border: none;
 }
-.Customize{
+.creat__pages--potition{
     padding-top: 0;
     padding-left: 177px;    
     margin-left: -100px;
 }
-.padding-bot{
+.section__body--padding-bottom{
     padding-bottom: 30px;
 }
-.Customize2{
+.section__body--potition{
     padding-right: 185px;
 }
-.bckgrnd-cta{
+.review--background{
     background: #7854F7;
 }
-.cta-h1{
+.review__title--cta{
     text-align: center;
     color: white;
     padding-top: 80px;
     font-weight: bold;
 }
-.cta-p{
+.review__body--cta{
     text-align: center;
     color: white;
     font-size: 21px;
     font-weight: lighter;
 }
-.cta-p2{
+.review__body--cta-2{
     padding-top: 70px;
     font-size: 21px;
     margin-right: 110px;
     margin-bottom: 150px;
     color: white;
 }
-.cta-img{
+.review__image--cta{
     padding-top: 67px;
     padding-left: 0;
 }
-.cta-img2{
+.review__image--cta-2{
     margin-left: -150px;
     padding-top: 60px;
 }
-.section-img24{
-    margin-left: -425px;
+.learn__img--potition{
+    margin-left: -425px; 
 }
-.testi-section{
+.learn__title--support{
     text-align: center;
     font-family: Arial;
     font-style: normal;
@@ -99,7 +99,7 @@
     margin-right: 670px;
     padding-top: 50px;
 }
-.testi-text2{
+.learn__body-my-team {
     color: #94A2B3;
     text-align: center;
     font-size: 15px;
@@ -107,10 +107,10 @@
     margin-right: 690px;
     margin-bottom: 0;
 }
-.images-24{
+.learn__images--24{
     margin-left: -220px;
 }
-.cta-section{
+.learn--background{
     background:#7854F7;
 }
 .Testi-text3{
@@ -121,47 +121,42 @@
     padding-left: -41px;
     font-size: 40px;
 }
-.testi-text4{
+.learn__text--background{
     background: none;
     border: 3px solid white;
 }
-.section-text4{
+.learn__text--potition{
     margin-left: 145px;
     border-radius: 60px;
     width: 256px;
     height: 64px;
     background:none;
 }
-.Testi-text4{
-    font-family:Roboto;
-    margin-top: 90px;
-    margin-left: 90px;
-}
-.text-rectangle2371{
+.footer__images--rectangle-2371{
     font-size: 18px;
     margin-right: -410px;
 }
-.text-rectangle2372{
+.footer__images--rectangle-2372{
     margin-left: 250px;
 }
-.text-rectangle2373{
+.footer__images--rectangle-2373{
     margin-left: 90px;
 }
-.rectangle237{
+.footer__images--rectangle-237{
     padding-top: 50px;
 }
 .color-img{
     filter: grayscale(100%);
 }
-.LOGO2{
+.footer__img--logo{
     text-align: center;
     margin-top: 135px;
     padding-bottom: 50px;
 }
-.redesign-line{
+.footer__line--design{
     border-top: 1px solid #9A7DFF;;
 }
-.footer-section{
+.footer__link--line{
     background: none;
     border: none;
     font-weight: bolder;
@@ -170,7 +165,7 @@
     padding-top: 0px;
     padding-bottom: 0px;
 }
-.footer-section2{
+.footer__link--line-2{
     background: none;
     border: none;
     font-weight: bolder;
@@ -178,9 +173,9 @@
     font-family: Roboto;
     font-size: 14px;
 }
-.footer-section2:hover{
+.footer__link--line-2:hover{
     background:none ;
 }
-.footer-section:hover{
+.footer__link--line:hover{
     background:none ;
 }
