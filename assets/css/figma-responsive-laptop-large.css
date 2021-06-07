@@ -1,52 +1,52 @@
 @media(min-width:1440px){
-    .matt-mcdonald{
-        font-size: 126px;
+    .header__name--people{
+        font-size: 126px; 
     }
-    .rectangle-potition{
+    .header__image--potition{
         margin-left: 165px;
     }
-    .combined-shape{
+    .header__image--shape{
         margin-left: 403px;
     }
-    .background-end{
+    .footer__bacground--color{
         width: 100%;
     }
-    .frame11{
+    .excellence__title--frame{
         margin-top: -15px;
     }
     .frame11-taxt{
         margin-bottom: 0px;
     }
-    .img-rectangle2{
+    .excellence__image--rectangle-2{
         margin-bottom: 66px;
         margin-top: 80px;
     }
-    .frame-bot{
+    .excellence__text-padding-bottom{
         padding-bottom: 66px;
         font-size: 20px;
     }
-    .frame-bot1{
+    .excellence__text-padding-bottom-1{
         font-size: 20px;
     }
-    .skillset3{
+    .excellence__title--color{
         color: #9E8C6C;
         padding-top: 350px;
     }
-    .padding-text{
+    .excellence__text--padding{
         margin-left: 0px;
         margin-right: 0px;
     }
-    .left-visual{
+    .excellence__list-left-visual{
         list-style-type: none;
         margin-left: -40px;
         padding-bottom: 0px;
     }
-    .padding-date{
+    .excellence__date--padding{
         padding-left: 0px;
         padding-right: 0px;
         margin-bottom:0px
     }
-    .skillset1{
+    .excellence__name--skillset{
         padding-top:0px
     }
 }
