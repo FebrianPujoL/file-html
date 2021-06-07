@@ -1,10 +1,10 @@
 @media(min-width:1440px){
-    .minimalisresume-avatar{
+    .header__images--position{
         margin-left: 368px;
         margin-top: 64px;
         width: 280px;
     }
-    .Carlos-montoya{
+    .header__name--carlos-montoya{
         font-size:30px ;
         margin-left: 64px;
         font-family: Inter;
@@ -12,7 +12,7 @@
         line-height: 44px;
         margin-top:24px
     }
-    .education{
+    .header__title-education{
         width: 279px;
         padding-left: 328px;
         margin-top: 64px;
@@ -20,7 +20,7 @@
         font-size: 24px;
         color: rgba(0, 0, 0, 0.3);
     }
-    .education-mentors{
+    .header__body--media{
         width: 100%;
         font-size: 24px;
         font-family: Inter;
@@ -29,7 +29,7 @@
         margin-top: -10px;
         padding-right: 100px;
     }
-    .design-director{
+    .header__director--design{
         font-weight: 500;
         font-size: 24px;
         line-height: 29px;
@@ -38,7 +38,7 @@
         margin-left: 64px;
         margin-top: -15px;
     }
-    .quote-address{
+    .header__address--design{
         color: rgba(0, 0, 0, 0.3);
         font-family: Inter;
         font-size: 14px;
@@ -47,7 +47,7 @@
         margin-left: 590px;
         margin-top: -80px;
     }
-    .quote-text{
+    .header__text--design{
         font-weight: 500;
         font-size: 24px;
         line-height: 40px;
@@ -59,7 +59,7 @@
         padding-top: 104px;
         padding-bottom: 328px;
     }
-    .project{
+    .project__title--design{
         font-family: Inter;
         font-weight: 500;
         font-size: 24px;
@@ -67,23 +67,23 @@
         color: rgba(0, 0, 0, 0.6);
         margin-left: 64px;
     }
-    .sub-project{
+    .project__body--design{
         font-size: 24px;
         line-height: 40px;
         color: rgba(0, 0, 0, 0.3);
         font-family: Inter;
         margin-left: 64px;
     }
-    .experience-design{
+    .project__experience--design{
         color: rgba(0, 0, 0, 0.6);
         font-weight: 500;
         font-size: 24px;
         line-height: 40px;
     }
-    .experience-design-color{
+    .project__experience--design-color{
         color:rgba(0, 0, 0, 0.3) ;
     }
-    .experience-date{
+    .project__date--design{
         font-size: 24px;
         line-height: 40px;
         font-family: Inter;
@@ -91,14 +91,14 @@
         margin-top: -20px;
         margin-bottom: 20px;
     }
-    .experience-1st{
+    .project__body--design-text-1{
         font-size: 18px;
         line-height: 24px;
         text-align: justify;
         color: rgba(0, 0, 0, 0.3);
         padding-right: 120px;
     }
-    .experience-2nd{
+    .project__body--design-text-2{
         font-size: 18px;
         line-height: 24px;
         text-align: justify;
